@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20ef401-93ba-4b55-aa0f-ea6583c9efa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dars_3/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/config/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/config/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/config/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/pagesapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/pagesapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/pagesapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/pagesapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/pagesapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/pagesapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/pagesapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/pagesapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/templates/asosiy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dars_3/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dars_3/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dars_3/pagesapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dars_3/pagesapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dars_3/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dars_3/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dars_3/templates/asosiy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dars_3/templates/asosiy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dars_3/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/dars_3/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dars_3/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/dars_3/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
