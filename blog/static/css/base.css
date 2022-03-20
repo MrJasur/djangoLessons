@@ -8,6 +8,13 @@ header h2{
     margin-left: 50rem;
 }
 
+.user_name{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
 .post_header{
 }
 
