@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 # Create your models here.
 class Post(models.Model):
@@ -11,3 +12,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self): #Add post new ga kirib saqlashdi bosgandan keyin. post_detail.html ga yonaltiradi
+        return reverse('post_detail', args=[str(self.pk)])

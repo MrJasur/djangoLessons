@@ -2,33 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20ef401-93ba-4b55-aa0f-ea6583c9efa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blogapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/config/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/post_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/post_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/post_new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blogapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blogapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blogapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blogapp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blogapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blogapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blogapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blogapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/post_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1647649656251</updated>
       <workItem from="1647682173152" duration="370000" />
-      <workItem from="1647682571038" duration="4202000" />
+      <workItem from="1647682571038" duration="4953000" />
+      <workItem from="1647725325461" duration="13682000" />
     </task>
     <servers />
   </component>

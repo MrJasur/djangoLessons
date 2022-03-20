@@ -1,6 +1,18 @@
 header h1 a{
     color: green;
     text-decoration: none;
+
+}
+header h2{
+    float: right;
+    margin-left: 50rem;
+}
+
+.post_header{
+}
+
+.header_btn button{
+    float: right;
 }
 
 
