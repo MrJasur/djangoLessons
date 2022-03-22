@@ -1,36 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c20ef401-93ba-4b55-aa0f-ea6583c9efa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/registration/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/migrations/0002_customuser_manzil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/migrations/0003_remove_customuser_manzil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/articles/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/config/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/config/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/config/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/media/images/2019-11-03_13.40.00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/media/images/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/media/images/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/media/images/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/media/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/media/images/ozim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/media/images/photo_2022-03-18_19-12-48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/media/images/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/pages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/pages/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/pages/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/pages/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/pages/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/pages/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/pages/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/article_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/article_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/article_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/article_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/article_new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/registration/password_change_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/registration/password_change_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newBlog/templates/registration/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PowerShell" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dars_1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/dars_1/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,28 +132,41 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="26a73xJwnhigxFPAycmtjDRnqgq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.splitter.main.proportions" value="0.30000004" />
+    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dpraktikum\django\newBlog\templates" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration useDefault="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,10 +175,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647649656251</updated>
-      <workItem from="1647682173152" duration="370000" />
-      <workItem from="1647682571038" duration="4953000" />
-      <workItem from="1647725325461" duration="20297000" />
-      <workItem from="1647755806183" duration="3450000" />
+      <workItem from="1647985578808" duration="91000" />
+      <workItem from="1647985708230" duration="6106000" />
     </task>
     <servers />
   </component>
@@ -99,16 +196,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="8" key="SettingsEditor" timestamp="1647685861686">
+    <state x="442" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647833868631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1647685861686" />
+    <state x="442" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1647833868631" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1647899758340">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1647899758340" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1647903133919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1647903133919" />
     <state x="456" y="237" width="612" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1647682530887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="456" y="237" width="612" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1647682530887" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1647904345888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1647904345888" />
   </component>
 </project>

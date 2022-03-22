@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Post detail{% endblock title %}
+{% block content %}
+    <div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            {% if object.photo %}
+                <img class="card-img-top w-25" src="{{ object.photo.url }}" alt="{{ object.title }}">
+            {% endif %}
+            <h1 class="card-title">{{ object.title }}</h1>
+            <h6 class="card-subtitle mb-2 text-muted">Muallif: {{ object.author }} | {{ object.date }}</h6>
+            <p class="card-text">{{ object.body | safe }}</p>
+            <a href="{% url 'article_edit' article.pk %}">Edit</a> |
+            <a href="{% url 'article_delete' article.pk%}">Delete</a> |
+            <a href="{% url 'article_list'%}">All posts</a>
+        </div>
+
+    </div>
+    </div>
+{% endblock content %}
