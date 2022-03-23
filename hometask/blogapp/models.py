@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 # Create your models here.
 class Post(models.Model):
     ism = models.CharField(max_length=100)
@@ -12,3 +13,6 @@ class Post(models.Model):
         'auth.User',
         on_delete=models.CASCADE,
     )
+
+    def __str__(self):
+        return self.ism

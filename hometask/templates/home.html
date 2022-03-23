@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <table>
+  <tr>
+    <th>№</th>
+    <th>Ismi</th>
+    <th>Familiyasi</th>
+    <th>Telefon</th>
+    <th>Email</th>
+    <th>Yuborilgan xabar</th>
+  </tr>
+ {% for post in object_list %}
+  <tr>
+      <td>{{ post.id }}</td>
+    <td>{{ post.ism }}</td>
+    <td>{{ post.familiya }}</td>
+    <td>{{ post.tel }}</td>
+    <td>{{ post.email }}</td>
+    <td>{{ post.xabar }}</td>
+  </tr>
+           {% endfor %}
+</table>
+
+{% endblock content %}
