@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Bosh sahifa
+{% endblock title%}
+
+{% block content %}
+    <br>
+    <div class="jumbotron">
+        <h1 class="display-4">Assalomu alaykum!</h1>
+        <p class="lead">Jasurbek Odilovning shaxsiy blogiga xush kelbsiz.</p>
+        <hr class="my-4">
+        <p>Bu yerda dasturlash va unga oid yangiliklardan xabardor bo'lishingiz mumkin.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">Postlarni ko'rish</a>
+        </p>
+    </div>
+{% endblock content%}
+
+
